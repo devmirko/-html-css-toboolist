@@ -38,20 +38,26 @@ header{
     width: 80%;
     background-color: white;
     margin: 30px auto;
+    border-radius: 10px;
    
 }
 
 /* stile button  */
+.box-button{
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
 
 .button-container{
     margin: 10px 40px;
+
 }
 
 .button{
     
   border-radius: 20px;
   color: white;
-  padding: 15px 32px; 
+  padding: 10px 20px; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -69,5 +75,44 @@ header{
 background-color: white;
 color: #ccc;
 
+}
+
+/* stile contenuto */
+
+main{
+    padding: 50px;
+}
+
+.list-item{
+    margin: 10px 0 10px;
+}
+
+.title{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.arrow{
+    font-size: 40px;
+}
+
+.success{
+    font-size: 30px;
+    color: green;
+}
+
+.tag{
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.text{
+    margin: 0 10px;
 }
 
