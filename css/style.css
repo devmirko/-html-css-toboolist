@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+/* stile header */
+header{
+    background-color: white;
+    padding: 10px;
+   
+}
+
+#logo{
+ height: 80px;
+ width: auto;
+ line-height: 80px;
+ vertical-align: middle;
+     
+}
+
+#logo-text{
+    font-size: 40px;
+    margin-top: 5px;
+
+}
+
+
+
+/* stile container */
+
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 30px auto;
+   
+}
+
+/* stile button  */
+
+.button-container{
+    margin: 10px 40px;
+}
+
+.button{
+    
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+
+}
+
+#one{
+    background-color: blue;
+
+}
+
+#two{
+background-color: white;
+color: #ccc;
+
+}
+
