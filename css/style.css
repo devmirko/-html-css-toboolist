@@ -6,27 +6,27 @@
 
 body{
     font-family: Roboto, Helvetica, sans-serif;
-    background-color: #ccc;
+    background-color: #F6F8F9;
 }
 
 /* stile header */
 header{
     background-color: white;
     padding: 10px;
-   
+    line-height: 100px;
+    height: 100px;
 }
 
 #logo{
- height: 80px;
  width: auto;
- line-height: 80px;
  vertical-align: middle;
      
 }
 
 #logo-text{
     font-size: 40px;
-    margin-top: 5px;
+    vertical-align: middle;
+    font-weight: 800;
 
 }
 
@@ -55,7 +55,7 @@ header{
 
 .button{
     
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   padding: 10px 20px; 
   text-align: center;
@@ -67,7 +67,7 @@ header{
 }
 
 #one{
-    background-color: blue;
+    background-color: #47ADF1;
 
 }
 
@@ -127,21 +127,21 @@ main{
 /* color target */
 
 #blue{
-    background-color: blue;
+    background-color: #45ABEA ;
 }
 
 #orange{
-    background-color: orange;
+    background-color: #F29E33;
 }
 #green{
-    background-color: greenyellow;
+    background-color: #64C0A9;
 
 }
 #viola{
-    background-color: blueviolet;
+    background-color: #9C72E4;
 }
 #fuxia{
-    background-color: fuchsia;
+    background-color: #D863A1;
 }
 
 
